@@ -1,0 +1,43 @@
+body {
+  background-color: #00ace6;
+  color: #fff;
+  text-align: center;
+}
+h1 {
+  text-transform: uppercase;
+  margin-bottom: 60px;
+  text-shadow: 2px 2px 4px #000000;
+  text-align: center;
+}
+#search {
+  background-color: #0086b3;
+  color: #fff;
+  font-size: 20px;
+  border: solid white 2px;
+  border-radius: 12px;
+  padding: 10px 20px;
+  cursor: pointer;
+}
+#country-name {
+  font-size: 25px;
+}
+table, td, tr {
+  text-align: center;
+  margin: 30px auto;
+  padding: 0 15px;
+}
+h2 {
+  text-shadow: 2px 2px 4px #000000;
+  text-align: center;
+}
+ul li {
+  font-size: 20px;
+  list-style-type: none;
+  text-align: center;
+  font-weight: 700;
+  margin: 0 auto;
+  padding: 0;
+}
+#capitals, #countries, #flags {
+  padding: 0;
+}

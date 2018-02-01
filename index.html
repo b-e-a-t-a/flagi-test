@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>Country search engine- API</title>
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+  </head>
+  <body>
+    <h1>Country search engine</h1>
+    <button id="search">Search a country</button>
+    <input id="country-name" type="text" />
+    <table>
+      <tr>
+        <td>
+          <h2>List of countries</h2>
+        </td>
+        <td>
+          <h2>Capitals</h2>
+        </td>
+        <td>
+          <h2>Flag</h2>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <ul id="countries">
+            <li>No data</li>
+          </ul>
+        </td>
+        <td>
+          <ul id="capitals">
+            <li>Capital</li>
+          </ul>
+        </td>
+        <td>
+          <ul id="flags">
+            <li><img src="flag-photo" alt="no photo"></li>
+          </ul>
+        </td>
+      </tr>
+    </table>
+    <script type="text/javascript" src="js/script.js"></script>
+  </body>
+</html>
